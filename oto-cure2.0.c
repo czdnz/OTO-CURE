@@ -1,10 +1,9 @@
-//Cemal Muhammet Özdeniz 21219048
-//Ceyda Yýldýz 21219020
-//Þirin Büþra Gençol 21219034
+//Cemal Ã–zdeniz 
+
 #define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<time.h>
-//gribe iyi gelebilecek 4 takviye önerisi 
+//gribe iyi gelebilecek 4 takviye Ã¶nerisi 
 void grip_takviye() {
 	printf("\n");
 	printf("Gribe yakalanmamak icin 4 takviye\n\n\n");
@@ -26,7 +25,7 @@ void grip_cay() {
 	printf("***Papatya cayi***\n\n");
 	printf(" 3 dal papatya, 3 bardak su ve bir adet lavantayi kabin icerisine ekleyin ve kaynatmaya baslayin.\n Hazirladiginiz karisimi suzun ve bardaga alin.\n Uzerine 1 corba kasigi limon suyu ve 1 tatli kasigi bal ekleyip karistirin. \n\n\n ");
 }
-//covid riskini ölçen mini test
+//covid riskini Ã¶lÃ§en mini test
 void covid_test() {
 	int n1, n2, n3, n4, toplamn;
 	printf("\n");
@@ -89,20 +88,20 @@ void covid_test() {
 	else
 		printf("Corona icin yuksek seviye risk tasiyorsunuz . en yakin saglik birimine gidip test yaptirin ve kendinizi izole edin");
 }
-//gribe iyi gelecek yemek önerileri
+//gribe iyi gelecek yemek Ã¶nerileri
 void grip_yemek() {
 	printf("\n");
 	printf("Gribe iyi gelen yemekler\n\n\n\n");
 	printf("***Sarimsak corbasi***\n\n");
 	printf(" Dogal bir antioksidan kaynagi olan sarimsak, yemeklerin icerisinde tat vermek icin kullanilir.\n Mikroplarin giderilmesinde etkili bir rol oynadigi icin, kis aylarinda fazla tuketilmelidir.\n Gribi hafif bir sekilde atlatmak icin, bir veya iki porsiyon sarimsak corbasi tuketmeye ozen gosterin.\n\n\n");
 	printf("***Tavuk suyu corbasi***\n\n");
-	printf(" Hasta corbasi olarak bilinen tavuk suyu corbasi, yaklasik 30-35 dakika da hazirlanir.\n Istege gore havuc, patates, dereotu gibi besinlerle birlikte sunulabilir.\n Özellikle solunum yolu hastaliklarina iyi gelmesiyle bilinir.\n Bu nedenle haftada bir veya iki kez tuketilmesi onerilir.\n\n\n");
+	printf(" Hasta corbasi olarak bilinen tavuk suyu corbasi, yaklasik 30-35 dakika da hazirlanir.\n Istege gore havuc, patates, dereotu gibi besinlerle birlikte sunulabilir.\n Ã–zellikle solunum yolu hastaliklarina iyi gelmesiyle bilinir.\n Bu nedenle haftada bir veya iki kez tuketilmesi onerilir.\n\n\n");
 	printf("***Iskembe corbasi***\n\n");
-	printf("Genellikle dana veya koyun iskembesinden hazirlanan bu corba, kis aylarinin vazgecilmezidir. Iceriginde fosfor, protein ve B12 vitamini barindirdigi için, kemik gelisimini destekler ve sinir hucrelerinin duzenli calismasini saglar. Bu nedenle haftada bir kez kahvalti veya aksam yemeklerinde tuketilmelidir. \n\n\n");
+	printf("Genellikle dana veya koyun iskembesinden hazirlanan bu corba, kis aylarinin vazgecilmezidir. Iceriginde fosfor, protein ve B12 vitamini barindirdigi iÃ§in, kemik gelisimini destekler ve sinir hucrelerinin duzenli calismasini saglar. Bu nedenle haftada bir kez kahvalti veya aksam yemeklerinde tuketilmelidir. \n\n\n");
 	printf("***Etli kereviz yemegi***\n\n");
 	printf(" A ve K vitamini, potasyum, sodyum, demir gibi bircok minerali iceriginde barindiran kereviz,\n ozellikle Kasim-Subat aylari arasinda fazla tuketilir.\n Mide yanmasina iyi gelen bu besin, ayni zamanda iltihaplarin giderilmesini de saglar.\n Ozellikle enfeksiyonlu hastaliklarda haftada bir kez tuketilmelidir.\n\n\n");
 }
-//alkol baðýmlýlýðýný ölçen test
+//alkol baÄŸÄ±mlÄ±lÄ±ÄŸÄ±nÄ± Ã¶lÃ§en test
 void alkol_test() {
 	int y1, y2, y3, y4, y5, toplamy;
 	printf("***Lutfen asagidaki sorularin yanindaki degeri giriniz***\n\n\n");
@@ -122,7 +121,7 @@ void alkol_test() {
 	else
 		printf("Lutfen gecerli bir deger giriniz\n");
 
-	printf("Son alti ay icinde, bir seferde (6 kadeh sarap veya 3 duble raki veya dört kutu buyuk bira) veya daha fazla icme sikliginiz ne kadardir?\n\n");
+	printf("Son alti ay icinde, bir seferde (6 kadeh sarap veya 3 duble raki veya dÃ¶rt kutu buyuk bira) veya daha fazla icme sikliginiz ne kadardir?\n\n");
 	printf("1* Hic veya ayda birden az\n");
 	printf("2* Ayda 1-3 kez\n");
 	printf("3* Haftada bir veya daha fazla\n");
@@ -189,7 +188,7 @@ void alkol_test() {
 	else
 		printf("Alkol kullanimin yuksek risk duzeyinde. Bu duzeyde alkol kullaniminin bagimlilik olusturabilecegi bilinmektedir. Bu nedenle azaltmak veya birakmanin uygun olacagi belirtilmektedir.\n");
 }
-//sigara baðýmlýlýðýný ölçen test
+//sigara baÄŸÄ±mlÄ±lÄ±ÄŸÄ±nÄ± Ã¶lÃ§en test
 void sigara_test() {
 	int z1, z2, z3, z4, z5, toplamz;
 	printf("***Lutfen asagidaki sorularin yanindaki degeri giriniz***\n\n\n");
@@ -272,7 +271,7 @@ void sigara_test() {
 		printf("Sigara kullaniminiz yuksek risk duzeyinde. Bu duzeyde sigara kullanimi bagimli oldugunuzu gostermektedir. Bu nedenle azaltmak veya birakmanin uygun olacagi belirtilmektedir.\n");
 
 }
-//vücut kitle endeksini hesaplayan program (boyu metre cinsinden girdirin)
+//vÃ¼cut kitle endeksini hesaplayan program (boyu metre cinsinden girdirin)
 void vucut_kitle() {
 	float boy;
 	int kilo, vke;
@@ -295,7 +294,7 @@ void vucut_kitle() {
 		printf("Durumunuz = Obez \n");
 
 }
-//günlük kalori ihtiyacýný hesaplayan program (boyu santimetre cinsinden girdirin)
+//gÃ¼nlÃ¼k kalori ihtiyacÄ±nÄ± hesaplayan program (boyu santimetre cinsinden girdirin)
 void gunluk_kolori() {
 	int kilo, yas, fbmh, secim1, secim2, boy;
 
@@ -336,7 +335,7 @@ void gunluk_kolori() {
 	}
 
 }
-//kolay kilo vermek için öneriler
+//kolay kilo vermek iÃ§in Ã¶neriler
 void kilo_oneri() {
 	printf("Hizli kilo vermek icin oneriler\n\n\n");
 	printf("***Gec saatlerde yemek yemeyin.\n");
@@ -347,7 +346,7 @@ void kilo_oneri() {
 	printf("***Yemekleri iyi cigneyerek tuketin. \n");
 	printf("***Sekerli iceceklerden uzak durun. \n ");
 }
-//depresyondan kurtulmak için öneriler
+//depresyondan kurtulmak iÃ§in Ã¶neriler
 void depresyondan_kurtulma() {
 	printf("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
 	printf("*Arkadas ve aile bireylerinizle aktif bir sekilde iletisim kurun\n");
@@ -356,13 +355,13 @@ void depresyondan_kurtulma() {
 	printf("*Gerekli oldugu sure boyunca tedavi olun\n");
 	printf("*Uzman psikoterapistinizin tavsiyelerine uyun\n");
 	printf("*Kucuk ve erisilebilir hedefler belirleyin\n");
-	printf("*Uyandýktan sonra mumkun oldugunca cabuk kalkýn\n");
+	printf("*UyandÄ±ktan sonra mumkun oldugunca cabuk kalkÄ±n\n");
 	printf("*Bedensel olarak aktif olun\n");
 	printf("*Kisisel haftalik planinizi olusturun\n");
 	printf("*Uzerinizdeki yuku hafifletin\n");
 	printf("*Alkolden ve uyusturucudan uzak durun\n");
 }
-//depresyon durumunu hesaplayan test (hatayý belirt) 
+//depresyon durumunu hesaplayan test (hatayÄ± belirt) 
 void depresyon_test() {
 	int x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, toplamx;
 	printf("*****Asagidaki formda verilen bilgilerden hissettiginiz durumun yanindaki degeri giriniz*****\n \n \n");
@@ -378,7 +377,7 @@ void depresyon_test() {
 	else if (x1 == 3)
 		x1 = 2;
 	else
-		printf("lutfen geçerli bir deger giriniz");
+		printf("lutfen geÃ§erli bir deger giriniz");
 
 	printf("1-Gelecek hakkinda umutsuz ve kararsiz degilim. \n");
 	printf("2-Gelecek hakkinda karamsarim. \n");
@@ -474,7 +473,7 @@ void depresyon_test() {
 
 	printf("1-Her zamankinden daha sinirli degilim.\n");
 	printf("2-Cogu zaman sinirliyim.\n");
-	printf("3-Eskiden sinirlendigim seylere bile artýk sinirlenemiyorum.\n\n");
+	printf("3-Eskiden sinirlendigim seylere bile artÄ±k sinirlenemiyorum.\n\n");
 	scanf_s("%d", &x9);
 	if (x9 == 1)
 		x9 = 0;
@@ -541,7 +540,7 @@ int main() {
 				if (choose2 == 1) {
 					covid_test();
 					FILE* dosya1;
-					dosya1 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya1 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya1, "%lld , Covidmiyim ? testi yapildi , %s \n", tc, ctime(&t));
 					fprintf(dosya1, "\n");
 
@@ -564,14 +563,14 @@ int main() {
 				if (choose2 == 1) {
 					grip_yemek();
 					FILE* dosya2;
-					dosya2 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya2 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya2, "%lld , Gribe iyi gelen yemek onerileri incelendi , %s \n", tc, ctime(&t));
 					fprintf(dosya2, "\n");
 				}
 				else if (choose2 == 2) {
 					grip_cay();
 					FILE* dosya3;
-					dosya3 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya3 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya3, "%lld , Gribe iyi gelen cay onerileri incelendi , %s \n", tc, ctime(&t));
 					fprintf(dosya3, "\n");
 				}
@@ -579,7 +578,7 @@ int main() {
 					grip_takviye();
 		
 					FILE* dosya4;
-					dosya4 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya4 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya4, "%lld , Gribe yakalanmadan gecirebilmeniz icin takviye onerileri incelendi , %s \n", tc, ctime(&t));
 					fprintf(dosya4, "\n");
 				}
@@ -601,14 +600,14 @@ int main() {
 				if (choose2 == 1) {
 					alkol_test();
 					FILE* dosya5;
-					dosya5 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya5 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya5, "%lld , Alkol bagimlilik testi yapildi , %s \n", tc, ctime(&t));
 					fprintf(dosya5, "\n");
 				}
 				else if (choose2 == 2) {
 					sigara_test();
 					FILE* dosya6;
-					dosya6 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya6 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya6, "%lld , Sigara bagimlilik testi yapildi , %s \n", tc, ctime(&t));
 					fprintf(dosya6, "\n");
 				}
@@ -632,21 +631,21 @@ int main() {
 				if (choose2 == 1) {
 					vucut_kitle();
 					FILE* dosya7;
-					dosya7 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya7 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya7, "%lld , Boy kilo endeksi hesaplandi , %s \n", tc, ctime(&t));
 					fprintf(dosya7, "\n");
 				}
 				else if (choose2 == 2) {
 					gunluk_kolori();
 					FILE* dosya8;
-					dosya8 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya8 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya8, "%lld , Gunluk kalori ihtiyaci hesaplandi , %s \n", tc, ctime(&t));
 					fprintf(dosya8, "\n");
 				}
 				else if (choose2 == 3) {
 					kilo_oneri();
 					FILE* dosya11;
-					dosya11 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya11 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya11, "%lld , Kilo vermek icin oneriler incelendi , %s \n", tc, ctime(&t));
 					fprintf(dosya11, "\n");
 				}
@@ -667,14 +666,14 @@ int main() {
 				if (choose2 == 1) {
 					depresyon_test();
 					FILE* dosya9;
-					dosya9 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya9 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya9, "%lld , Depresyon testi yapildi ,  %s \n", tc, ctime(&t));
 					fprintf(dosya9, "\n");
 				}
 				else if (choose2 == 2) {
 					depresyondan_kurtulma();
 					FILE* dosya10;
-					dosya10 = fopen("C:\\Users\\cmlzd\\OneDrive\\Masaüstü\\hastakayit.txt", "a");
+					dosya10 = fopen("C:\\Users\\cmlzd\\OneDrive\\MasaÃ¼stÃ¼\\hastakayit.txt", "a");
 					fprintf(dosya10, "%lld , Depresyon kurtulma yollari incelendi , %s \n", tc, ctime(&t));
 					fprintf(dosya10, "\n");
 				}
@@ -694,8 +693,8 @@ int main() {
 
 		return 0;
 }
-// Gelecekte uygulamaya gelebilecek güncellemeler:
-// kayýt dosyasina yapýlan iþlem yerine iþlem sonucu yazýlacak.
-// kayýt dosyasina ad soyad verisi girilebilir.
-// hastalýk sayýsý ve iþlemleri arttýrýlacak
+// Gelecekte uygulamaya gelebilecek gÃ¼ncellemeler:
+// kayÄ±t dosyasina yapÄ±lan iÅŸlem yerine iÅŸlem sonucu yazÄ±lacak.
+// kayÄ±t dosyasina ad soyad verisi girilebilir.
+// hastalÄ±k sayÄ±sÄ± ve iÅŸlemleri arttÄ±rÄ±lacak
 
