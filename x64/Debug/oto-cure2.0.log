@@ -1,0 +1,10 @@
+﻿  oto-cure2.0.c
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(282,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(309,47): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(311,44): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(319,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(323,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(327,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(331,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\visual\oto-cure2.0\oto-cure2.0\oto-cure2.0.c(364,42): warning C4101: 'x10': unreferenced local variable
+  oto-cure2.0.vcxproj -> D:\visual\oto-cure2.0\x64\Debug\oto-cure2.0.exe
